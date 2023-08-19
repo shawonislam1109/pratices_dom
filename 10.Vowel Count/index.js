@@ -6,7 +6,7 @@ const displayVowel = document.getElementById('displayVowel');
 //Define Event listener
 button.addEventListener('click', countVowel);
 
-//Define Functions
+
 function countVowel(e) {
     let count = 0;
     const words = input.value;

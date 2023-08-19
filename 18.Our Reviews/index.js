@@ -9,7 +9,7 @@ const prevBtn = document.querySelector(".prev-btn");
 const nextBtn = document.querySelector(".next-btn");
 const randomBtn = document.querySelector(".random-btn");
 
-let currentReview = 0;
+var  currentReview = 0;
 
 
 
@@ -33,7 +33,6 @@ prevBtn.addEventListener('click', (e)=>{
 
     }
 })
-
 
 nextBtn.addEventListener('click', (e)=>{
     if(currentReview < reviews.length - 1){
